@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: lightcyan;
+}
+
+h1#judul {
+    padding: 2vh;
+    text-align: center;
+    margin: 5vh;
+    font-size: 6vh;
+    background: lightgreen;
+    border-radius: 2vh;
+    height: 10vh;
+    width: 80vw;
+}
+
+.hit {
+    width: 70vw;
+    height: 20vh;
+    background: lightcoral;
+    border-radius: 10vh;
+    margin: 5vh 5vh 0vh 5vh;
+    display: grid;
+    place-items: center;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+.hit:hover {
+    background: lightgreen;
+    color: rgb(0, 50, 100);
+}
+
+.hit:nth-child(4) {
+    margin-bottom: 5vh;
+}
+
+.hitung {
+    width: 80vw;
+    height: 90vh;
+    margin: 10vh 10vw;
+    background: lightgreen;
+    border-radius: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 10vh solid lightcyan;
+}
+
+.hitung1 {
+    background: lightcyan;
+    padding: 5vh;
+    border-radius: 2vh;
+    margin: 5vh 5vh 0vh 5vh;
+}
+
+.tombol {
+    display: block;
+    height: 40vh;
+    margin: 5vh;
+    width: 40vh;
+    background: lightpink;
+    border-radius: 50%;
+    border: 2vh solid white;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    font-size: 20vh;
+}
+
+.tombol:hover {
+    background: rgb(247, 86, 110);
+}
+
+#toUp {
+    width: 10vw;
+    height: 30vh;
+    background: white;
+    text-wrap: wrap;
+    font-size: 4vh;
+    text-align: center;
+    border-radius: 2vh;
+    display: grid;
+    position: fixed;
+    right:0;
+    top: calc(50% - 15vh);
+    place-items: center;
+    cursor: pointer;
+    border:0.5vh solid lightcoral;
+}
+
+#toUp:hover {
+    background: lightpink;
+}
+
